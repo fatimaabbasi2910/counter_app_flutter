@@ -1,16 +1,42 @@
-# counter_app
+### **2️⃣ Week 2 – Counter & To-Do List App (README.md)**
 
-A new Flutter project.
+```markdown
+# Week 2: Counter & To-Do List App
 
-## Getting Started
+## Overview
+This project introduces state management and local data storage using `SharedPreferences`.  
+It includes a counter app and a to-do list app.
 
-This project is a starting point for a Flutter application.
+## Features
+### Counter App
+- Increment/decrement counter
+- Counter value is saved and restored on restart
 
-A few resources to get you started if this is your first Flutter project:
+### To-Do List App
+- Add and delete tasks
+- Display tasks in a `ListView`
+- Tasks are saved locally using `SharedPreferences`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/week2-counter-todo.git
+Open in VS Code or Android Studio.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Get dependencies:
+
+bash
+Copy code
+flutter pub get
+Run the app:
+
+bash
+Copy code
+flutter run
+Usage
+Counter App: Press + or - to change counter. Value persists after app restart.
+
+To-Do App: Add tasks with input field. Tasks are saved automatically.
+
+Notes
+Focus is on state management and persistent storage in Flutter.
